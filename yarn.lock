@@ -350,6 +350,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.1.tgz#de633db3ec2ef6a3c89e2f19038063e8a122e2c2"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
+"@gammarers/aws-cdk-errors@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@gammarers/aws-cdk-errors/-/aws-cdk-errors-1.1.0.tgz#258eecb674f576264723094b8c6b0f0dad61c475"
+  integrity sha512-CweRRdTrW7YzpSxlHyAcY1PgTAjdLEm7iVLUtnhNzwOTeIy980Iz7Exl6YFN8elO9sU3qmpuiAnKi8xJP2nyLw==
+
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.13.0.tgz#fb907624df3256d04b9aa2df50d7aa97ec648748"
