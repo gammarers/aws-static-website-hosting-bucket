@@ -12,7 +12,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   deps: [
     '@gammarers/aws-cdk-errors@^1.1.0',
   ],
-  releaseToNpm: false,
+  releaseToNpm: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',
   workflowNodeVersion: '22.4.x',
