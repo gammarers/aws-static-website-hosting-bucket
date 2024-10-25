@@ -3,7 +3,7 @@ import { Template } from 'aws-cdk-lib/assertions';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 import { StaticWebseiteHostingBucket } from '../src';
 
-describe('StaticWebseiteHostingBucket default Testing', () => {
+describe('StaticWebseiteHostingBucket custom name Testing', () => {
 
   const app = new App();
   const stack = new Stack(app, 'TestingStack', {
@@ -13,7 +13,9 @@ describe('StaticWebseiteHostingBucket default Testing', () => {
     },
   });
 
-  const bucket = new StaticWebseiteHostingBucket(stack, 'StaticWebseiteHostingBucket');
+  const bucket = new StaticWebseiteHostingBucket(stack, 'StaticWebseiteHostingBucket', {
+    customDomain: 'example.com',
+  });
 
   const template = Template.fromStack(stack);
 
