@@ -9,6 +9,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: '@gammarers/aws-static-website-hosting-bucket',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers/aws-static-website-hosting-bucket.git',
+  deps: [
+    '@gammarers/aws-cdk-errors@^1.1.0',
+  ],
   releaseToNpm: false,
   npmAccess: javascript.NpmAccess.PUBLIC,
   minNodeVersion: '18.0.0',

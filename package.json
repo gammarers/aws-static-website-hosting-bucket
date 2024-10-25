@@ -60,6 +60,9 @@
     "aws-cdk-lib": "^2.80.0",
     "constructs": "^10.0.5"
   },
+  "dependencies": {
+    "@gammarers/aws-cdk-errors": "^1.1.0"
+  },
   "keywords": [
     "cdk"
   ],
